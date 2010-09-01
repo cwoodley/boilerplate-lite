@@ -3,6 +3,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <title></title>
+  <?php include('includes/functions.php'); ?>
+
   <!-- iPhone Icon -->
   <!-- <link rel="apple-touch-icon" href="media/images/iphone-icon.png" /> -->
 
@@ -12,14 +14,13 @@
   <![endif]-->
 
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="media/stylesheets/compiled/reset.css" media="all" />
-  <link rel="stylesheet" type="text/css" href="media/stylesheets/compiled/text.css" media="all" />
-  <link rel="stylesheet" type="text/css" href="media/stylesheets/compiled/style.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="<?=auto_version('/media/stylesheets/compiled/reset.css')?>" media="all" />
+  <link rel="stylesheet" type="text/css" href="<?=auto_version('/media/stylesheets/compiled/text.css')?>" media="all" />
+  <link rel="stylesheet" type="text/css" href="<?=auto_version('/media/stylesheets/compiled/style.css')?>" media="all" />
 
 </head>
 
 <body>
-
 
 <!-- JS -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
