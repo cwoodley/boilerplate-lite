@@ -82,3 +82,21 @@ address,
 fieldset {
 	margin-bottom: 20px;
 }
+
+/* http://www.cssstickyfooter.com/using-sticky-footer-code.html
+---------------------------------------- */
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+	padding-bottom: 40px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+	margin-top: -40px; /* negative value of footer height */
+	height: 40px;
+	clear:both;}
+	
+/* clearfix
+---------------------------------------- */
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;} .clearfix {display: inline-block;} html[xmlns] .clearfix {display: block;} * html .clearfix {height: 1%;}

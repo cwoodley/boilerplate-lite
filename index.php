@@ -22,6 +22,14 @@
   <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta3)/IE8.js"></script>
   <![endif]-->
 
+  <!-- http://www.cssstickyfooter.com/using-sticky-footer-code.html -->
+  <!--[if !IE 7]>
+  	<style type="text/css">
+  		#wrap {display:table;height:100%}
+  	</style>
+  <![endif]-->
+  
+
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="<?=auto_version('/media/stylesheets/compiled/reset.css')?>" media="all" />
   <link rel="stylesheet" type="text/css" href="<?=auto_version('/media/stylesheets/compiled/text.css')?>" media="all" />
