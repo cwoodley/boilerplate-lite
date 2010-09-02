@@ -1,7 +1,7 @@
 RewriteEngine on
 RewriteRule ^(.*)\.[\d]{10}\.(css|js)$ $1.$2 [L]
 
-# pretty URLS
+# pretty URL
 # changes www.sitename.com/page.php to www.sitename.com/page/
 RewriteRule ^page/?$ page.php [NC,L]
 
