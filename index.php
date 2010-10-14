@@ -31,8 +31,6 @@
   
 
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="<?=auto_version('/media/stylesheets/compiled/reset.css')?>" media="all" />
-  <link rel="stylesheet" type="text/css" href="<?=auto_version('/media/stylesheets/compiled/text.css')?>" media="all" />
   <link rel="stylesheet" type="text/css" href="<?=auto_version('/media/stylesheets/compiled/style.css')?>" media="all" />
 
 </head>

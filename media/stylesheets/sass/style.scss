@@ -1,3 +1,6 @@
+@import "reset";
+@import "text";
+
 .container {margin:0 auto;width:960px;}
-.left {display:inline;float:left;}
-.right {display:inline;float:right;}
+.alignleft {display:inline;float:left;}
+.alignright {display:inline;float:right;}
