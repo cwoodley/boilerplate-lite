@@ -8,7 +8,6 @@
   <title></title>
   <meta name="description" content="">
   <meta name="author" content="">
-
     
   <?php include('includes/functions.php'); ?>
 
@@ -24,14 +23,17 @@
 
   <!-- http://www.cssstickyfooter.com/using-sticky-footer-code.html -->
   <!--[if !IE 7]>
-  	<style type="text/css">
-  		#wrap {display:table;height:100%}
-  	</style>
+  <style type="text/css">
+    #wrap {display:table;height:100%}
+  </style>
   <![endif]-->
-  
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="<?=auto_version('/media/stylesheets/compiled/style.css')?>" media="all" />
+  
+  <!-- JS -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <script type="text/javascript" src="<?=auto_version('/media/javascripts/presentation.js')?>"></script>
 
 </head>
 
@@ -40,10 +42,6 @@
 <!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
-
-<!-- JS -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-<script type="text/javascript" src="<?=auto_version('/media/javascripts/presentation.js')?>"></script>
 
 <!--[if lt IE 7 ]>
   <script src="js/dd_belatedpng.js?v=1"></script>
