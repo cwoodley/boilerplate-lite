@@ -1,9 +1,14 @@
 <!doctype html>
-<html lang="en">
+<!--[if IE 7 ]>    <html lang="en" class="ie7 no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+  
+  <!--[if IE]>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
 
   <title></title>
   <meta name="description" content="">
@@ -36,15 +41,7 @@
   <script type="text/javascript" src="<?=auto_version('/media/javascripts/presentation.js')?>"></script>
 
 </head>
+<body>
 
-<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
-
-<!--[if lt IE 7 ]>
-  <script src="js/dd_belatedpng.js?v=1"></script>
-<![endif]-->
 </body>
 </html>
