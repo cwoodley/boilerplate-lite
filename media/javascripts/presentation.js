@@ -15,4 +15,5 @@ $(document).ready(function() {
      $(this).after('<a class="email" href="mailto:'+addr+subject+'">'+ emaillink + '</a>');
   	$(this).remove();
   });
+
 });

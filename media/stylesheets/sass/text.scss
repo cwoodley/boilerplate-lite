@@ -123,15 +123,3 @@ $medium: 12px;
 $x-medium: 14px;
 $large: 18px;
 $x-large: 24px;
-
-@mixin bxsh($x: 5px,$y: 5px,$blur: 5px,$color:#000) {
-  -webkit-box-shadow: $x $y $blur $color;
-  -moz-box-shadow: $x $y $blur $color;
-  box-shadow: $x $y $blur $color;
-}
-
-@mixin bdrz($radius: 10px) {
-  -moz-border-radius: #{$radius};
-  -webkit-border-radius: #{$radius};
-  border-radius: #{$radius};
-}

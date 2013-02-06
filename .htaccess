@@ -1,5 +1,4 @@
 RewriteEngine on
-RewriteRule ^(.*)\.[\d]{10}\.(css|js)$ $1.$2 [L]
 
 # pretty URLs
 # changes www.sitename.com/page.php to www.sitename.com/page/
