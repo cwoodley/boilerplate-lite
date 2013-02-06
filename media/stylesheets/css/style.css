@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 /* http://meyerweb.com/eric/tools/css/reset/ */
 /* v1.0 | 20080212 */
 html, body, div, span, applet, object, iframe,
@@ -157,8 +162,15 @@ html[xmlns] .clearfix {
 /* Vars & Mixins
 ---------------------------------------- */
 .container {
-  margin: 0 auto;
-  width: 960px; }
+  *zoom: 1;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
 
 .alignleft {
   display: inline;

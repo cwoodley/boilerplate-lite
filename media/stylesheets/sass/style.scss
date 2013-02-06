@@ -1,7 +1,10 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
 @import "reset";
 @import "text";
-@import "bourbon/bourbon";
 
-.container {margin:0 auto;width:960px;}
+.container {
+	@include outer-container;
+}
 .alignleft {display:inline;float:left;}
 .alignright {display:inline;float:right;}

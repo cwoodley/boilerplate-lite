@@ -1,7 +1,7 @@
 <!doctype html>
-<!--[if IE 7 ]>    <html lang="en" class="ie7 no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="ie7 no-js"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
@@ -16,17 +16,20 @@
 
   <!--  Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
-  
 
   <!-- CSS -->
-
-  <link rel="stylesheet" href="./media/" type="text/css" />
+  <link rel="stylesheet" href="./media/stylesheets/css/style.css" type="text/css" />
   
   <!-- JS -->
-  <?=javascript_include('presentation.js')?>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="./media/javascripts/presentation.js"></script>
 
 </head>
 <body>
-dfsfdf
+
+  <div class="container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus porro iste cupiditate magni quisquam adipisci unde aut aperiam expedita atque magnam animi fugit dolorem laudantium ad! Repellat facilis eum consectetur!</p>
+  </div>
+
 </body>
 </html>
